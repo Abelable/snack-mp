@@ -1,7 +1,7 @@
 <import src="../tpls/products/products-tpl.wxml"/>
 <view class="container theme-container" hidden="{{!loadingHidden}}">
     <view class="theme-header">
-        <image src="{{themeInfo.head_img.url}}" mode="aspectFill" />
+        <image src="{{themeInfo.headImg.url}}" mode="aspectFill" />
     </view>
     <view class="theme-main">
         <!--单品-->
